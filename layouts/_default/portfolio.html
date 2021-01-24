@@ -1,0 +1,81 @@
+{{ define "main" }}
+<main aria-roledescription="main">
+    <section id="hero-section" class="py-32">
+        <div class="container">
+            <div class="helmet">
+                <p class="eyebrow mb-5">Portfolio</p>
+                <h1 class="mb-10">Check out some of my past work</h1>
+                <p class="subheading">Get a feel for my design style by taking a look at some selections from my portfolio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="image-section">
+        <img src="/img/composite.webp" alt="A collection of website mockups" class="w-screen h-auto" loading="lazy">
+    </section>
+
+    <section id="portfolio-section" class="py-32">
+        <div class="container">
+            <div class="helmet mb-20">
+                <p class="eyebrow mb-5">Recent projects</p>
+                <h2 class="mb-10">How I've helped past clients</h2>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 grid-rows-auto lg:grid-rows-3 gap-10">
+                <a href="." target="blank" id="infinitude" class="portfolio-card lg:col-span-12 lg:row-span-1 bg-gray-50 border border-gray-100">
+                    <div class="lg:w-1/2">
+                        <p class="eyebrow mb-5">Infinitude</p>
+                        <p class="text-gray-400">I worked with Infinitude to develop pre-existing website design files into a full-fledged custom WordPress theme, allowing for simple site management and content editing.</p>
+                    </div>
+                </a>
+                <a href="." id="github" target="blank" class="portfolio-card lg:col-span-4 lg:row-span-1 bg-gradient-to-b from-github-light to-github border border-gray-100">
+                    <img src="/img/github-white.svg" alt="Github logo" class="absolute -right-14 -bottom-14 h-72 w-72 opacity-20">
+                    <div class="flex flex-col justify-center h-full z-10">
+                        <p class="text-xl font-medium text-white tracking-tight opacity-90 mb-5">Github</p>
+                        <p class="text-4xl font-semibold text-white opacity-90">View the source code for this website on GitHub</p>
+                    </div>
+                </a>
+                <a href="." target="blank" id="aces" class="portfolio-card lg:col-span-8 lg:row-span-1 bg-gray-50 border border-gray-100">
+                    <div>
+                        <p class="eyebrow mb-5">Infinitude</p>
+                        <p class="text-gray-400">I worked with Infinitude to develop pre-existing website design files into a full-fledged custom WordPress theme, allowing for simple site management and content editing.</p>
+                    </div>
+                </a>
+                <a href="." target="blank" id="trchb" class="portfolio-card lg:col-span-8 lg:row-span-1 bg-gray-50 border border-gray-100">
+                    <div>
+                        <p class="eyebrow mb-5">Infinitude</p>
+                        <p class="text-gray-400">I worked with Infinitude to develop pre-existing website design files into a full-fledged custom WordPress theme, allowing for simple site management and content editing.</p>
+                    </div>
+                </a>
+                <a href="." id="dribbble" target="blank" class="portfolio-card lg:col-span-4 lg:row-span-1 bg-gradient-to-b from-dribbble-light to-dribbble border border-gray-100">
+                    <img src="/img/dribbble-white.svg" alt="Github logo" class="absolute -top-14 -right-14 h-72 w-72 opacity-20">
+                    <div class="flex flex-col justify-center h-full z-10">
+                        <p class="text-xl font-medium text-white tracking-tight opacity-90 mb-5">Infinitude</p>
+                        <p class="text-4xl font-semibold text-white opacity-90">Check out the rest of my concepts, client work, and portfolio pieces on Dribbble</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonial-question" class="py-32">
+        <div class="container">
+            <div class="flex flex-col items-center text-center-max-w-xl mx-auto">
+                <blockquote class="text-xl text-gray-400 mb-10">
+                    Test
+                </blockquote>
+                <div class="flex justify-start">
+                    <img src="/img/eperez.webp" alt="A picture of Ruth Ashley Perez" class="avatar mr-3">
+                    <div class="flex flex-col items-start">
+                        <p class="text-sm font-semibold text-bluebird">Eliav Perez</p>
+                        <p class="text-sm text-gray-400">Infinitude</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{ partial "cta-card.html" . }}
+
+</main>
+
+{{ end }}

@@ -1,0 +1,94 @@
+{{ define "main" }}
+<main aria-roledescription="main">
+
+<section id="hero-section" class="py-40">
+    <div class="container">
+        <div class="helmet">
+            <p class="eyebrow mb-5">About Me</p>
+            <h1 class="mb-10">I'm Alex 👋🏼 It's nice you meet you</h1>
+            <p class="subheading">I'm a web designer and front-end developer building eye-catching websites in Orange County, California.</p>
+        </div> 
+    </div>
+</section>
+
+<section id="grid-section" class="w-screen">
+    <div class="grid grid-cols-12 grid-rows-auto gap-5 w-full">
+        <div class="col-span-12 lg:col-span-4 row-span-1 h-96">
+            <img src="/img/typing.webp" alt="A picture of me typing on a Macbook laptop" class="h-full w-full object-cover" loading="lazy">
+        </div>
+        <div class="col-span-12 lg:col-span-4 row-span-1 h-96">
+            <img src="/img/desk.webp" alt="A Macbook laptop sitting on a desk" class="h-full w-full object-cover" loading="lazy">
+        </div>
+        <div class="col-span-12 lg:col-span-4 row-span-1 h-96">
+            <img src="/img/sirens.webp" alt="A group photo of the Sirens kickball team standing on top of a bus" class="h-full w-full object-cover" loading="lazy">
+        </div>
+        <div class="col-span-12 lg:col-span-3 row-span-1 h-96">
+            <img src="/img/bench.webp" alt="A picture of me sitting on a bench" class="h-full w-full object-cover" loading="lazy">
+        </div>
+        <div class="col-span-12 lg:col-span-3 row-span-1 h-96">
+            <img src="/img/torte.webp" alt="A picture of a flourless chocolate torte" class="h-full w-full object-cover" loading="lazy">
+        </div>
+        <div class="col-span-12 lg:col-span-6 row-span-1 h-96">
+            <img src="/img/code.webp" alt="Code on a laptop screen" class="h-full w-full object-cover" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<section id="logo-section" class="py-32 border-b border-gray-200">
+    <div class="container text-center">
+        <p class="eyebrow mb-5">I am proficient in the following:</p>
+        <div class="flex justify-center flex-wrap w-full">
+            <img src="/img/afphoto.webp" alt="Affinity Photo logo" class="icon m-6">
+            <img src="/img/afdesign.webp" alt="Affinity Designer logo" class="icon m-6">
+            <img src="/img/html.webp" alt="HTML logo" class="icon m-6">
+            <img src="/img/css.webp" alt="CSS logo" class="icon m-6">
+            <img src="/img/javascript.webp" alt="Javascript logo" class="icon m-6">
+            <img src="/img/sass.webp" alt="Sass logo" class="icon m-6">
+            <img src="/img/tailwind.webp" alt="Tailwind logo" class="icon m-6">
+            <img src="/img/webflow.webp" alt="Webflow logo" class="icon m-6">
+            <img src="/img/wordpress.webp" alt="WordPress logo" class="icon m-6">
+        </div>
+    </div>
+</section>
+
+<section id="content-section" class="py-32">
+    <div class="container">
+        <div class="helmet">
+            <p class="eyebrow mb-5">Who I am</p>
+            <h2 class="mb-10">A bit about me</h2>
+        </div>
+        <article class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto">
+            {{ .Content }}
+        </article>
+    </div>
+</section>
+
+<section id="image-section">
+    <img src="/img/market.webp" alt="An outdoor market in Kota Ambon, Maluku, Indonesia" class="w-screen h-auto" loading="lazy">
+</section>
+
+<section id="kiva-section" class="py-32">
+    <div class="container">
+        <div class="grid grid:cols-1 lg:grid-cols-2 gap-5 lg:gap-10">
+            <div class="flex flex-col justify-center items-start">
+                <p class="eyebrow mb-5">Giving back</p>
+                <h2 class="mb-10">A business with a purpose</h2>
+                <p class="text-lg text-gray-600 mb-5">There's absolutely nothing wrong with making money. But a business should be about more than just money.</p>
+                <p class="text-gray-600 lg:mb-10">That's why I've committed to donating 10 percent of annual gross revenue to entrepreneurs in developing countries––especially those who have been most affected by the COVID-19 pandemic.</p>
+            </div>
+            <div class="flex flex-col justify-start items-start">
+                <p class="text-gray-600 mb-5">These donations are made through <a href="https://kiva.org" class="link">Kiva,</a> an international nonprofit organization that crowdfunds loans and issues capital to those who would otherwise be unable to access the financial services they need.</p>
+                <p class="text-gray-600 mb-10">To date, Kiva has helped 3.8 million borrowers by funding more than $1.5 billion in loans. This money has allowed students to pay for their tuition, women to start businesses, farmers to invest in equipment, and families to afford medical care.</p>
+                <div class="flex justify-start items-center">
+                    <a href="https://kiva.org" target="blank" class="link-xl mr-2">Learn more about Kiva</a>
+                    <div class="chevron"></div>
+                </div>
+            </div>
+        </div>    
+    </div>
+</section>
+
+{{partial "cta-card" . }}
+
+</main>
+{{ end }}

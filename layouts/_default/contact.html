@@ -1,0 +1,52 @@
+{{ define "main" }}
+<main aria-roledescription="main">
+    <section id="hero-section" class="py-40">
+        <div class="container">
+            <div class="helmet">
+                <p class="eyebrow mb-5">Contact</p>
+                <h1 class="mb-10">Get in touch with me</h1>
+                <p class="subheading">If you want to talk about working together, please click on the Hire Me button above. For all other comments and questions, fill out the contact form below.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div class="container">
+            <div id="contact-form" class="grid grid-cols-1 lg:grid-cols-2 grid-rows-5 lg:grid-rows-1 gap-10 lg:gap-0 border border-gray-100 rounded-2xl shadow-2xl overflow-hidden">
+                <div class="row-span-2 lg:row-span-1 flex flex-col justify-center align-start bg-gray-100 p-10 lg:-20">
+                    <p class="eyebrow mb-2">Address</p>
+                    <p class="text-gray-400 mb-5">4853 MacArthur Boulevard, Suite A-2010, Newport Beach, CA 92660</p>
+                    <p class="eyebrow mb-2">Email</p>
+                    <p class="text-gray-400 mb-5"><a href="mailto:hello@alexsanchez.design">hello@alexsanchez.design</a></p>
+                    <p class="eyebrow mb-2">Phone</p>
+                    <p class="text-gray-400 mb-5"><a href="tel:9492031720">(949) 203-1720</a></p>
+                </div>
+                <div class="row-span-3 lg:row-span-1 flex flex-col justify-start align-center p:10 lg:p-20">
+                    <form action="POST" class="flex flex-col justify-center align-start p-6">
+                        <div class="flex flex-col mb-4">
+                            <label for="name" class="hidden">First Name</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="First name" class="input w-100">
+                        </div>
+                        <div class="flex flex-col mb-4">
+                            <label for="name" class="hidden">First Name</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Last name" class="input w-100">
+                        </div>
+                        <div class="flex flex-col mb-4">
+                            <label for="email" class="hidden">First Name</label>
+                            <input type="email" name="email" id="email" placeholder="name@example.com" class="input w-100 ">
+                        </div>
+                        <div class="flex flex-col mb-4">
+                            <label for="comment" class="hidden">First Name</label>
+                            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Write your message here" class="input p-3"></textarea>
+                        </div>
+                        <button type="submit" class="btn-blue w-1/2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{{ partial "cta-card.html" . }}
+
+</main>
+{{ end }}

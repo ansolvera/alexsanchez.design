@@ -1,0 +1,128 @@
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Tailwind base styles */
+@layer base {
+    h1 {
+        @apply text-6xl font-bold tracking-tighter;
+    }
+    h2 {
+        @apply text-5xl font-bold tracking-tight;
+    }
+    h3 {
+        @apply text-4xl font-bold tracking-tight;
+    }
+    h4 {
+        @apply text-3xl font-bold tracking-tight;
+    }
+    h5 {
+        @apply text-2xl font-semibold;
+    }
+    h6 {
+        @apply text-xl font-semibold;
+    }
+}
+
+/* Custom global styles */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Inter, serif;
+}
+
+/* Custom layout classes */
+.card {
+    @apply flex flex-col align-top max-w-md p-10 mx-auto;
+}
+
+.container {
+    width: 90%;
+    max-width: 73.125rem;
+}
+
+.helmet {
+    @apply flex flex-col items-start md:items-center md:text-center max-w-xl mx-auto;
+}
+
+.icon-wrapper {
+    @apply flex flex-col justify-center items-center shadow-lg rounded-xl p-4;
+}
+
+.pers-left {
+    transform: scale(1)
+    perspective(1040px)
+    rotateX(2deg)
+    rotateY(11deg)
+    rotate(-2deg);
+}
+
+.pers-right {
+    transform: scale(1)
+    perspective(1040px)
+    rotateX(2deg)
+    rotateY(-11deg)
+    rotate(2deg);
+}
+
+/* Custom text classes */
+.eyebrow {
+    @apply text-xl font-medium text-gray-400 tracking-tight;
+}
+
+.subheading {
+    @apply text-xl text-gray-600;
+}
+
+/* Custom elements */
+.avatar {
+    @apply h-10 w-10 rounded-full ring-2 ring-white;
+}
+
+.btn-blue {
+    @apply bg-bluebird text-white border border-bluebird px-6 py-3 text-base font-medium text-center rounded-md shadow-md transform hover:-translate-y-0.5 hover:shadow-lg transition-all;
+}
+
+.btn-white {
+    @apply bg-white text-bluebird border border-gray-100 px-6 py-3 text-base font-medium text-center rounded-md shadow-md transform hover:-translate-y-0.5 hover:shadow-lg transition-all;
+}
+
+.chevron {
+    @apply inline-block h-2 w-2 border-t-2 border-r-2 border-bluebird transform rotate-45;
+}
+
+.gray-chevron {
+    @apply inline-block h-4 w-4 border-r-4 border-b-4 border-gray-400 transform rotate-45;
+}
+
+.icon {
+    @apply h-12 w-12 rounded-lg shadow-xl;
+}
+
+.input {
+    @apply font-medium rounded-lg bg-white border border-gray-100 focus:border-bluebird p-3;
+}
+
+.link {
+    @apply font-medium text-bluebird tracking-tight;
+}
+
+.link-xl {
+    @apply text-xl font-semibold text-bluebird tracking-tight;
+}
+
+.navlink {
+    @apply text-sm font-medium text-gray-500 hover:text-bluebird transition-all;
+}
+
+.portfolio-card {
+    @apply relative h-144 rounded-2xl shadow-xl p-10 overflow-hidden;
+}

@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main aria-roledescription="main">
+
+<section id="hero-section" class="py-40">
+    <div class="container">
+        <div class="helmet mb-10">
+            <p class="eyebrow mb-5">Blog</p>
+            <h1 class="mb-10">Read about my work</h1>
+            <p class="subheading mb-10">Get a behind-the-scenes look at my design process, and learn more about how I approach building websites from scratch. Subscribe to stay updated on all new blog posts.</p>
+
+            {{ partial "newsletter-form.html" . }}
+
+        </div> 
+    </div>
+</section>
+
+<section id="list-section" class="pb-32">
+    <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-x-0 lg:gap-x-10 gap-y-20">
+            {{ range .Pages.ByPublishDate }}
+            <a href="{{ .Permalink }}" class="group flex flex-col justify-start items-stretch">
+                <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" class="h-60 w-auto rounded-lg shadow-lg object-cover mb-5">
+                <div class="flex flex-col justify-start items-start">
+                    <p class="eyebrow mb-2">{{ .Params.tag }}</p>
+                    <h4 class="mb-2 group-hover:text-bluebird transition-all">{{ .Title }}</h4>
+                    <p class="text-gray-400 mb-5">{{ .Summary }}</p>
+                    <div class="btn-white">Read post</div>
+                </div>
+            </a>
+            {{ end }}
+        </div>    
+    </div>
+</section>
+{{ end }}
