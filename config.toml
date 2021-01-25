@@ -1,3 +1,9 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Alex Sanchez | Orange County Web Designer"
+
+author = "Alex Sanchez-Olvera"
+copyright = "Copyright © Alex Sanchez-Olvera | All rights reserved."
+
+[build]
+writeStats = true
