@@ -1,5 +1,12 @@
+ <!-- Cookie JS -->
+ <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
 <!-- GreenSock core -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
 
 <!-- GreenSock Scroll Trigger plugin -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+<!-- Custom JavaScript -->
+{{ $scripts := resources.Get "js/index.js"}}
+<script src="{{ $scripts.Permalink }}"></script>

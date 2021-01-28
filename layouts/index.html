@@ -1,28 +1,34 @@
 {{ define "main" }}
 <main aria-roledescription="main">
-    <section id="hero-section" class="py-40 relative">
+    <section id="hero-section" class="section py-40 relative">
         <div class="container">
-            <div class="grid grid:cols-1 lg:grid-cols-2 gap-10">
-                <div class="flex flex-col justify-center items-start">
-                    <p class="eyebrow mb-5">Alex Sanchez Designs</p>
-                    <h1 class="mb-10">Beautiful, custom-designed websites</h1>
-                    <p class="subheading mb-10">Trying to do everything yourself is stressful. Focus on running your business, and leave the website to me. Click on the button below, and let's get started.</p>
-                    <div class="flex justify-start items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 grid-rows-1 gap-10">
+                <div class="row-start-2 lg:row-start-1 lg:col-start-1 flex flex-col justify-center items-start">
+                    <p class="fade-in eyebrow mb-5">Alex Sanchez Designs</p>
+                    <h1 class="fade-in mb-10">Beautiful, custom-designed websites</h1>
+                    <p class="fade-in subheading mb-10">Trying to do everything yourself is stressful. Focus on running your business, and leave the website to me. Click on the button below, and let's get started.</p>
+                    <div class="fade-in flex justify-start items-center">
                         <a href="" class="btn-blue mr-5">Get started</a>
                         <a href="#services" class="btn-white">Learn more</a>
                     </div>
+                </div>
+                <div class="row-start-1 lg:col-start-2 pers-right relative w-full h-144">
+                    <img src="/img/app.webp" alt="" class="float absolute inset-0 right-0 -right-14 rounded-xl shadow-xl w-3/4 lg:w-full z-30">
+                    <img src="/img/product.webp" alt="" class="float absolute -top-14 -left-14 rounded-md shadow-md w-1/2 z-40">
+                    <img src="/img/christina.webp" alt="" class="float absolute bottom-14 -right-14 rounded-lg shadow-lg w-2/3 z-50">
+                    <img src="/img/ecomshop.webp" alt="" class="float absolute -top-16 -right-32 rounded-md shadow-md w-1/2 z-20">
                 </div>
             </div>    
         </div>
     </section>
 
-    <section id="services-section" class="py-32">
+    <section id="services-section" class="section py-32">
         <div class="container">
             <div class="helmet mb-20">
-                <p class="eyebrow mb-5">Services</p>
-                <h2 class="mb-10">How I can help you</h2>
-                <p class="subheading mb-10">I offer a variety of services to help my clients reach their online business goals. Whether you are looking to update an existing website or build one from scratch, I'm happy to help.</p>
-                <div class="flex justify-center items-center">
+                <p class="fade-in eyebrow mb-5">Services</p>
+                <h2 class="fade-in mb-10">How I can help you</h2>
+                <p class="fade-in subheading mb-10">I offer a variety of services to help my clients reach their online business goals. Whether you are looking to update an existing website or build one from scratch, I'm happy to help.</p>
+                <div class="fade-in flex justify-center items-center">
                     <a href="/services" class="link-xl mr-2">Learn more</a>
                     <div class="chevron"></div>
                 </div>
@@ -53,34 +59,34 @@
         </div>
     </section>
 
-    <section id="feature-section1" class="py-32">
+    <section id="feature-section1" class="section py-32">
         <div class="container">
-            <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-                <div class="flex flex-col justify-center items-start max-w-xl mx-auto lg:max-w-none">
-                    <p class="eyebrow mb-5">Personalized</p>
-                    <h2 class="mb-5">100% custom</h2>
-                    <p class="text-lg text-gray-600 mb-5">First impressions are important. Most visitors will judge your business within seconds of landing on your website.</p>
-                    <p class="text-gray-600 mb-10">It's no longer optional to have an impressive website that accurately represents your company. You need an impressive online presence that will wow your customers and leave them wanting to buy from you.</p>
-                    <div class="flex justify-start items-center">
+            <div class="grid grid-cols-1 grid-rows-1 lg:grid-cols-3 gap-10">
+                <div class="row-start-2 lg:row-start-1 lg:col-start-1 flex flex-col justify-center items-start max-w-xl mx-auto lg:max-w-none">
+                    <p class="fade-in eyebrow mb-5">Personalized</p>
+                    <h2 class="fade-in mb-5">100% custom</h2>
+                    <p class="fade-in text-lg text-gray-600 mb-5">First impressions are important. Most visitors will judge your business within seconds of landing on your website.</p>
+                    <p class="fade-in text-gray-600 mb-10">It's no longer optional to have an impressive website that accurately represents your company. You need an impressive online presence that will wow your customers and leave them wanting to buy from you.</p>
+                    <div class="fade-in flex justify-start items-center">
                         <a href="/services" class="link-xl mr-2">Learn more</a>
                         <div class="chevron"></div>
                     </div>
                 </div>
-                <img src="" alt="" class="lg:col-span-2">
+                <img src="/img/style-mockup.webp" alt="Browser mockup of an online style guide" class="float pers-right lg:col-span-2" loading="lazy">
             </div>
         </div>
     </section>
 
-    <section id="feature-section2" class="py-32">
+    <section id="feature-section2" class="section py-32">
         <div class="container">
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-                <img src="/img/cms-mockup.webp" alt="Browser mockup of a content management system" class="pers-left lg:col-span-2" loading="lazy">
+                <img src="/img/cms-mockup.webp" alt="Browser mockup of a content management system" class="float pers-left lg:col-span-2" loading="lazy">
                 <div class="flex flex-col justify-center items-start max-w-xl mx-auto lg:max-w-none">
-                    <p class="eyebrow mb-5">Manageable</p>
-                    <h2 class="mb-5">Easy to maintain</h2>
-                    <p class="text-lg text-gray-600 mb-5">You shouldn't need to pay a web developer every single time you want something changed on your website.</p>
-                    <p class="text-gray-600 mb-10">I will set you up with a CMS that will allow you to update and edit your website all on your own. After the project, I will send you a video training series teaching you how to manage your website all by yourself––easily and in minutes!</p>
-                    <div class="flex justify-start items-center">
+                    <p class="fade-in eyebrow mb-5">Manageable</p>
+                    <h2 class="fade-in mb-5">Easy to maintain</h2>
+                    <p class="fade-in text-lg text-gray-600 mb-5">You shouldn't need to pay a web developer every single time you want something changed on your website.</p>
+                    <p class="fade-in text-gray-600 mb-10">I will set you up with a CMS that will allow you to update and edit your website all on your own. After the project, I will send you a video training series teaching you how to manage your website all by yourself––easily and in minutes!</p>
+                    <div class="fade-in flex justify-start items-center">
                         <a href="/services" class="link-xl mr-2">Learn more</a>
                         <div class="chevron"></div>
                     </div>

@@ -75,14 +75,14 @@
         <div class="container">
             <div class="flex flex-col items-start mb-4">
                 <img src="/img/logo.webp" alt="Alex Sanchez Designs brand logo" class="h-10 w-10 mb-4">
-                <p class="text-sm w-1/2">I'm a web designer and front-end developer building eye-catching websites in Orange County, California.</p>
+                <p class="text-sm">I'm a web designer and front-end developer building eye-catching websites in Orange County, California.</p>
             </div>
             <div x-data="{ open: false }">
-                <div class="flex justify-between items-center w-full py-5 border-b border-gray-100">
+                <div @click="open = !open" class="flex justify-between items-center w-full py-5 cursor-pointer border-b border-gray-100">
                     <h5>Sitemap</h5>
-                    <button @click="open = !open" class="p-3">
+                    <div class="p-3">
                         <div class="gray-chevron"></div>
-                    </button>
+                    </div>
                 </div>
                 <div class="bg-gray-100" x-show="open">
                     <ul class="flex flex-col justify-start">
@@ -96,11 +96,11 @@
                 </div>
             </div>
             <div x-data="{ open: false }">
-                <div class="flex justify-between items-center w-full py-5 border-b border-gray-100">
+                <div @click="open = !open" class="flex justify-between items-center w-full py-5 cursor-pointer border-b border-gray-100">
                     <h5>Contact</h5>
-                    <button @click="open = !open" class="p-3">
+                    <div class="p-3">
                         <div class="gray-chevron"></div>
-                    </button>
+                    </div>
                 </div>
                 <div class="bg-gray-100" x-show="open">
                     <ul>
@@ -116,11 +116,11 @@
                 </div>
             </div>
             <div x-data="{ open: false }">
-                <div class="flex justify-between items-center w-full py-5 border-b border-gray-100">
+                <div @click="open = !open" class="flex justify-between items-center w-full py-5 cursor-pointer border-b border-gray-100">
                     <h5>Social</h5>
-                    <button @click="open = !open" class="p-3">
+                    <div class="p-3">
                         <div class="gray-chevron"></div>
-                    </button>
+                    </div>
                 </div>
                 <div class="bg-gray-100" x-show="open">
                     <div class="flex items-start">

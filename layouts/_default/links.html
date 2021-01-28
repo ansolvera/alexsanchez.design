@@ -1,0 +1,35 @@
+{{ partial "head.html" . }}
+
+<main aria-roledescription="main">
+    <section class="section flex flex-col justify-center items-center text-center w-screen h-screen">
+        <div class="container">
+            <div class="flex flex-col justify-start items-center mb-10">
+                <img src="/img/avatar.webp" alt="A picture of Alex Sanchez smiling" class="h-16 w-16 rounded-full ring-2 ring-white mb-5">
+                <p class="text-sm text-gray-400">@alexsanchez.design</p>
+            </div>
+            <div class="flex flex-col justify-start items-center max-w-screen-md mb-10 mx-auto">
+                <a href="/" class="fade-in btn-white w-full mb-10">Check out my website</a>
+                <a href="/blog" class="fade-in btn-white w-full mb-10">Read my blog</a>
+                <a href="/portfolio" class="fade-in btn-white w-full mb-10">View my portfolio</a>
+                <a href="mailto:hello@alexsanchez.design" class="fade-in btn-white w-full mb-10">Send me an email</a>
+                <a href="/" class="fade-in btn-blue w-full mb-10">Book a free intro call</a>
+            </div>
+            <div class="flex justify-center">
+                <a href="https://facebook.com/alexsanchez/designs" target="blank" class="p-4">
+                    <img src="/img/facebook.svg" alt="Facebook icon" class="h-6 w-6">
+                </a>
+                <a href="https://instagram.com/alexsanchez.design" target="blank" class="p-4">
+                    <img src="/img/instagram.svg" alt="Instagram icon" class="h-6 w-6">
+                </a>
+                <a href="https://dribbble.com/alexsanchezdesigns" target="blank" class="p-4">
+                    <img src="/img/dribbble.svg" alt="Dribbble icon" class="h-6 w-6">
+                </a>
+                <a href="https://github.com/ansolvera/portfolio" target="blank" class="p-4">
+                    <img src="/img/github.svg" alt="Github icon" class="h-6 w-6">
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+
+{{ partial "scripts.html" . }}
