@@ -11,24 +11,32 @@
         </div>
     </section>
 
-    <section id="image-section">
+    {{ with .Params.image }}
+
+    <section id="image-section" class="pb-32">
         <figure class="text-center">
-            <img src="{{ .Params.image }}" alt="{{ .Params.imagealt }}" class="w-screen h-auto mb-4" loading="lazy">
+            <img src="{{ . }}" alt="{{ $.Params.imagealt }}" class="w-screen h-auto mb-4" loading="lazy">
             <figcaption class="text-sm text-gray-400">
-                Image credit <a href="{{ .Params.imageurl }}" target="blank" class="link">{{ .Params.imageauthor }}</a>
+                Image credit <a href="{{ $.Params.imageurl }}" target="blank" class="link">{{ $.Params.imageauthor }}</a>
             </figcaption>
         </figure>
     </section>
 
-    <section id="content-section" class="py-32">
+    {{ end }}
+
+    <section id="content-section" class="pb-32">
         <div class="container">
-            <article class="prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto">
+            <article class="prose prose-lg mx-auto">
                 {{ .Content }}
             </article>
         </div>
     </section>
 
+    {{ with .Params.image }}
+
     {{ partial "newsletter-card.html" . }}
+
+    {{ end }}
 
 </main>
 {{ end }}

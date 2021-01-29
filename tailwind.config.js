@@ -1,3 +1,5 @@
+const autoprefixer = require('autoprefixer');
+
 module.exports = {
   purge: {
     content: ["./layouts/**/*.html", "./content/**/*.md", "./content/**/*.md"],
@@ -18,6 +20,38 @@ module.exports = {
       },
       spacing: {
         '144': '36rem',
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            a: {
+              fontWeight: '500',
+              color: '#0000f7',
+              letterSpacing: '-.025em',
+              textDecoration: 'none',
+            },
+            img: {
+              width: '100%',
+              borderRadius: '0.5rem',
+              boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05)',
+              margin: '0 auto;'
+            },
+            blockquote: {
+              fontWeight: '400',
+              color: '#333333',
+              borderLeft: '0px',
+              backgroundColor: 'rgba(249,250,251,1.0)',
+              borderRadius: '0.5rem',
+            },
+          },
+        },
+        lg: {
+          css: {
+            blockquote: {
+              padding: '2.5rem',
+            },
+          },
+        },
       },
     },
     fontFamily: {
