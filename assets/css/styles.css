@@ -57,20 +57,24 @@ body {
     @apply flex flex-col justify-center items-center shadow-lg rounded-xl p-4;
 }
 
-.pers-left {
-    transform: scale(1)
-    perspective(1040px)
-    rotateX(2deg)
-    rotateY(11deg)
-    rotate(-2deg);
+@responsive {
+    .pers-left {
+        transform: scale(1)
+        perspective(1040px)
+        rotateX(2deg)
+        rotateY(11deg)
+        rotate(-2deg);
+    }
 }
 
-.pers-right {
-    transform: scale(1)
-    perspective(1040px)
-    rotateX(2deg)
-    rotateY(-11deg)
-    rotate(2deg);
+@responsive {
+    .pers-right {
+        transform: scale(1)
+        perspective(1040px)
+        rotateX(2deg)
+        rotateY(-11deg)
+        rotate(2deg);
+    }
 }
 
 /* Custom text classes */
