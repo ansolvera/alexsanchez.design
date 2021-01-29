@@ -1,6 +1,7 @@
 baseURL = ""
 languageCode = "en-us"
 title = "Alex Sanchez | Orange County Web Designer"
+description = "Trying to do everything yourself is stressful. Focus on running your business, and leave the website to me."
 
 author = "Alex Sanchez-Olvera"
 copyright = "Copyright © Alex Sanchez-Olvera | All rights reserved."

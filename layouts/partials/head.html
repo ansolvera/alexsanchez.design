@@ -14,6 +14,12 @@
 
     <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
+    <!-- Open Graph -->
+    {{ template "_internal/opengraph.html" . }}
+
+    <!-- Twitter Cards -->
+    {{ template "_internal/twitter_cards.html" . }}
+
     <!-- AlpineJS -->
     <script defer src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 
