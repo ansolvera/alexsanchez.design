@@ -7,6 +7,19 @@
                 <p class="fade-in eyebrow mb-5">{{ .Params.tag }}</p>
                 <h1 class="fade-in mb-10">{{ .Title }}</h1>
                 <p class="fade-in subheading">{{ .Summary }}</p>
+
+                {{ with .Params.image }}
+
+                <div class="fade-in flex justify-start mt-10">
+                    <img src="/img/avatar.webp" alt="A picture of Alex Sanchez smiling" class="avatar mr-3">
+                    <div class="flex flex-col items-start">
+                        <p class="text-sm font-semibold text-bluebird">Alex Sanchez-Olvera</p>
+                        <p class="text-sm text-gray-400">{{ $.Params.date.Format "January 2, 2006" }}</p>
+                    </div>
+                </div>
+
+                {{ end }}
+
             </div> 
         </div>
     </section>

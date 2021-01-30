@@ -54,7 +54,7 @@ body {
 }
 
 .icon-wrapper {
-    @apply flex flex-col justify-center items-center shadow-lg rounded-xl p-4;
+    @apply flex flex-col justify-center items-start lg:items-center shadow-lg rounded-xl p-4;
 }
 
 @responsive {
