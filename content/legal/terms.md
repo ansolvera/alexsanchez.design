@@ -3,7 +3,7 @@ title: "Terms of Use"
 date: 2020-12-16T09:46:56-08:00
 draft: false
 tag: Legal
-summary: It's a common refrain among some within the web development community, but is it accurate?
+summary: By using this website, you agree that you are an adult and you won't do anything shady on the site.
 url: "terms-of-use"
 ---
 

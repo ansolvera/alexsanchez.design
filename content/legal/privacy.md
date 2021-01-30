@@ -3,7 +3,7 @@ title: "Privacy Policy"
 date: 2020-12-16T09:46:56-08:00
 draft: false
 tag: Legal
-summary: It's a common refrain among some within the web development community, but is it accurate?
+summary: This website uses third-party cookies in order to improve overall user experience. By using the site, you agree to accept these cookies.
 url: "privacy-policy"
 ---
 
