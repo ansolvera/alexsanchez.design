@@ -25,13 +25,13 @@ I had no idea what the hell I was doing, but I had a blast learning all of the i
 
 Since then, I've taught myself graphic design, web design, HTML, CSS, and JavaScript in addition to other tools like [WordPress](https://wordpress.org) and [Webflow](https://webflow.com).
 
-Although my focus is constantly changing, I'm currently learning all I can about the JAMstack and static-site generators like [Hugo](https://gohugo.io), [Jekyll](https://jekyllrb.com), and [Gatsby](https://gatsbyjs.com)––which offer many of the features associated with full-fledged web applications minus the headache.
+Although my focus is constantly changing, I'm currently learning all I can about the JAMstack and static-site generators like [Hugo](https://gohugo.io), [Jekyll](https://jekyllrb.com), and [Gatsby](https://gatsbyjs.com)––which together offer many of the features associated with full-fledged web applications minus the headache.
 
 I also share a lot of what I've learned on my [blog](/posts). And my writing has been featured in several online publications,––including **Prototypr,** **UX Planet,** and the **Data-Driven Investor**––where it has been shared among thousands of readers.
 
 Everything I know about web design and development is self-taught. I've always loved to learn, and I'm extremely grateful to be working in a field in which constant learning is a plus.
 
-Now I work with nonprofit organizations, helping them out so they don't have to spend years learning how to build a website like I did.
+Now I work with online business owners, helping them out so they don't have to spend years learning how to build a website like I did.
 
 ### A bit more
 
