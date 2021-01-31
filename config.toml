@@ -1,10 +1,22 @@
 baseURL = ""
+
+enableRobotsTXT = true
+canonifyURLs = true
+
+[params]
 languageCode = "en-us"
+languageName = "English"
+
 title = "Alex Sanchez | Orange County Web Designer"
 description = "Trying to do everything yourself is stressful. Focus on running your business, and leave the website to me."
+og_image = ["/img/opengraph.webp"]
+sitename = "Alex Sanchez"
+twitter = "@ansolvera"
 
 author = "Alex Sanchez-Olvera"
 copyright = "Copyright © Alex Sanchez-Olvera | All rights reserved."
+
+
 
 [build]
 writeStats = true
