@@ -1,4 +1,5 @@
-baseURL = ""
+googleAnalytics = "G-BZYESZDTPC"
+baseURL = "https://alexsanchez.design"
 
 enableRobotsTXT = true
 canonifyURLs = true

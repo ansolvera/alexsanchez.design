@@ -17,11 +17,21 @@
 
     <link rel="stylesheet" href="{{ $styles.Permalink }}">
 
-    <!-- Open Graph -->
-    {{ template "_internal/opengraph.html" . }}
+   <!-- Google Analytics -->
+   {{ template "_internal/google_analytics.html" . }}
+   {{ template "_internal/google_analytics_async.html" . }}
 
-    <!-- Twitter Cards -->
-    {{ template "_internal/twitter_cards.html" . }}
+    <!-- Hotjar -->
+    <script defer>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2226095,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
 
     <!-- AlpineJS -->
     <script defer src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
