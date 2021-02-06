@@ -12,15 +12,15 @@ slug: "moving-my-website-from-webflow-to-hugo"
 
 It's no secret that I'm a huge fan of [Webflow](https://webflow.com).
 
-In fact, I used the popular "no-code" tool to build and host the last iteration of this website. I used it for some freelance projects, as well, and my clients have all only ever had positive things to say about the service.
+In fact, I used the popular "no-code" tool to build and host the last iteration of this website. I also used it for some freelance projects, as well, and my clients have all only ever had positive things to say about the service.
 
-(Heck, I even wrote a [blog post](https://alexsanchez.design/blog/why-webflow-is-the-best-web-esign-tool-right-now) about how much I enjoyed using Webflow.)
+(Heck, I even wrote a semi-viral [blog post](https://alexsanchez.design/blog/why-webflow-is-the-best-web-esign-tool-right-now) about how much I liked Webflow.)
 
 But after two years of using Webflow for my personal portfolio website, I decided to make the switch to [Hugo](https://hugo.io), a popular static-site generator (SSG) that's powered by Google's [Go](https://golang.org) language and is often used to create blogs.
 
-Billing itself as "[t]he world's fastest framework for building websites," Hugo can generate most websites within seconds,--at less than 1 millisecond per page.
+Hugo bills itself as "[t]he world's fastest framework for building websites." Indeed, it can generate most websites within seconds,--at less than 1 millisecond per page.
 
-Due in large part to its speed, Hugo has rapidly skyrocketed in popularity over the past few years.
+And it has been due in large part to its speed that Hugo has rapidly skyrocketed in popularity over the past few years.
 
 The cloud-based hosting company Netlify began offering hosting for Hugo-built websites in 2015. And two years later, _Smashing Magazine_ [migrated](https://www.smashingmagazine.com/2019/05/switch-wordpress-hugo/) its entire website from [WordPress](https://wordpress.org) to Hugo.
 
@@ -64,11 +64,9 @@ So I decided to go with an SSG. But that, of course, opened up another question:
 
 I wanted a solution that would allow me to easily work with Markdown files and one that had a fairly simple template language. 
 
-(I usually write my blog posts in Markdown, anyway, so an ideal SSG would let me simply upload my .md files and then rebuild as necessary.)
+This narrowed it down to [Jekyll](https://jekyllrb.com) and Hugo.
 
-This narrowed things down to [Jekyll](https://jekyllrb.com) and Hugo.
-
-Ultimately, I went with the latter because I was able to find more up-to-date learning resources online. (There are a lot of helpful guides for Jekyll, too, but unfortunately most of them are several years old.)
+And ultimately, I went with the latter because I was able to find more up-to-date learning resources online. (There are a lot of helpful guides for Jekyll, too, but unfortunately most of them are several years old.)
 
 ## Making the Switch
 
@@ -76,11 +74,15 @@ Now the initial set-up was pretty straightforward, despite the fact that Hugo's 
 
 I understand that it's an open-source project, but there were quite a few basic questions that I was unable to answer.
 
-(For example: I'm still not entirely clear on the difference between Hugo's blocks and partials––aside from the fact that blocks seem to just be really big partials. But this seems like a basic concept that should have been clearly addressed in the docs.)
+For example: I'm still not entirely clear on the difference between Hugo's blocks and partials––aside from the fact that blocks seem to just be really big partials. 
 
-For the most part, however, Hugo is fairly simple and easy to understand. Users familiar with popular blogging platforms like Jekyll or WordPress should find little friction in adopting Hugo for their projects.
+Also, there's nothing in the documentation about creating static pages--meaning pages that don't make use of either the List or Single templates.
 
-The Go templating is fairly straightforward, too, even for users (like me) who had never written a single line of Go code beforehand. Depending on your willingness to learn a bit of Go templating, you can make your project as simple or as complex as you want it to be.
+These seem like basic concepts that should have been clearly addressed in the docs.
+
+But once I got the hang of things, the process of migrating to Hugo was fairly painless. Users familiar with popular blogging platforms like Jekyll or WordPress should find little friction in adopting Hugo for their projects.
+
+The Go templating is easy to understand, too, even for users (like me) who had never written a single line of Go code beforehand. Depending on your willingness to learn a bit of Go templating, you can make your project as simple or as complex as you want it to be.
 
 Hugo even comes pre-loaded with a few useful internal templates for things like setting Open Graph metadata and adding Disqus comments to your website.
 
