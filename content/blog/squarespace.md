@@ -1,6 +1,6 @@
 ---
 title: "The Pros and Cons of Squarespace"
-date: 2020-12-16T09:46:56-08:00
+date: 2019-01-23T09:46:56-08:00
 draft: false
 summary: Squarespace is one of the best-known website platforms. But does that mean it's the right solution for you?
 tag: Development
@@ -36,7 +36,7 @@ So whether you’re a business owner yourself, or a designer wondering whether S
 
 I encourage you to take a moment and first read through the following five cases in which the platform might not be the best fit for you.
 
-#### You need a distinguished brand
+### You need a distinguished brand
 
 It’s pretty easy to quickly assess whether a website was built with Squarespace — and not just because the platform includes a handy `<!-- This is Squarespace. -->` comment in the source code of every single one of its sites.
 
@@ -56,7 +56,7 @@ According to [BlueCorona](https://www.bluecorona.com/blog/20-web-design-facts-sm
 
 Site visitors and potential customers want to feel that they are engaging with an established, reputable business — not one among tens of thousands of other copy-cat businesses on the web.
 
-#### You need search-engine optimization (SEO)
+### You need search-engine optimization (SEO)
 
 One of the most frustrating aspects of site builders like Squarespace and its competitors is the notoriously hideous markup they create.
 
@@ -72,7 +72,7 @@ While this is on par with competitors [WordPress](https://wordpress.org) and [Jo
 
 And most of these will necessarily perform far worse than simple, HTML-based static websites, which will more often than not prove better solutions for most Squarespace business users.
 
-#### You need advanced customization options
+### You need advanced customization options
 
 Squarespace is kind of like the iOS or macOS of web development software.
 
@@ -90,7 +90,7 @@ Part of this is understandable given that Squarespace presents itself as a code-
 
 Also, it’s worth mentioning that custom code is [considered](https://support.squarespace.com/hc/en-us/articles/205815358-Custom-code-FAQ) “an advanced modification that falls outside of the scope of Squarespace support” — just something to keep in mind.
 
-#### You need hosting options
+### You need hosting options
 
 All Squarespace plans include fully-managed cloud hosting provided through the company’s partner, [Tucows](https://www.tucows.com/). The cost of hosting your website though Squarespace is covered in the monthly price.
 
@@ -104,7 +104,7 @@ The cost of this hosting can become quite expensive over time, especially for eC
 
 For reference: Static-site hosting is available for free through providers like [Netlify](https://www.netlify.com/) and [GitHub Pages,](https://pages.github.com/) while shared hosting plans through [SiteGround](https://www.siteground.com/) begin at just $3.95 per month.
 
-#### You need flexibility (and ownership)
+### You need flexibility (and ownership)
 
 With website builders like Wix and Squarespace, it’s often incredibly difficult (if not outright impossible) to migrate your site to another platform should your business ever outgrow the original.
 
@@ -118,7 +118,7 @@ It’s never a good idea for businesses to become so dependent upon another enti
 
 Should Squarespace’s headquarters be stuck by a meteor — or if the company declares bankruptcy — business owners using the platform could find themselves with a huge financial headache that could have been avoided.
 
-### The final verdict
+## The final verdict
 
 Overall, Squarespace is a solid site-building platform that provides a quality service for non-technical users to easily create websites for either personal or business use.
 

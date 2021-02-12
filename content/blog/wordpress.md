@@ -1,10 +1,11 @@
 ---
 title: "Is WordPress Dying?"
-date: 2020-12-16T09:46:56-08:00
+date: 2019-03-27T09:46:56-08:00
 draft: false
 tag: Development
 summary: It's a common refrain among some within the web development community, but is it accurate?
 image: /img/wordpress-hero.webp
+imageauthor: Fikret Tozak
 slug: "is-wordpress-dying"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Why Webflow Is the Best Web Design Tool Right Now"
-date: 2020-12-16T09:46:56-08:00
+date: 2019-02-13T09:46:56-08:00
 draft: false
 summary: Among a slew of poor-quality DIY site builders, Webflow stands out as a powerful solution for code-free web design and development.
 tag: Design
@@ -50,7 +50,7 @@ For this reason, designing in Webflow — combined with the excellent tutorials 
 
 What’s more: The platform also comes equipped with a pared-down Editor that can be used by clients to make basic edits to their website … without breaking the entire site structure in the process!
 
-#### Webflow CMS
+### Webflow CMS
 
 While launching a blog in Webflow might take more upfront work than it would with a native blogging platform like WordPress, the result will likely be well worth the effort.
 
@@ -66,7 +66,7 @@ Users can then create **Collections,** or reusable templates for dynamic content
 
 It’s like having all of the upsides of using a database — without actually having to manage a database yourself!
 
-#### Interactions 2.0
+### Interactions 2.0
 
 In my opinion, this is coolest feature that Webflow currently has to offer … even though it can sometimes be one of the more frustrating.
 
@@ -82,7 +82,7 @@ Nevertheless, you can create some pretty incredible animations with this tool, i
 
 While I can’t say I’m 100% comfortable using the Interactions panel, I’d still much rather work with this than write my own `on.Click` functions.
 
-#### Deployment and Hosting
+### Deployment and Hosting
 
 Webflow hosting is provided by [Amazon Web Services (AWS)](https://aws.amazon.com) cloud computing platform and facilitated by a global content distribution network (CDN) powered by [Fastly](https://fastly.com) and [Amazon Cloudfront.](https://aws.amazon.com/cloudfront)
 
@@ -98,7 +98,7 @@ On the bright side, however, if you find that none of these plans work for you (
 
 Because all websites are coded in basic HTML, CSS, and JavaScript, you’re not locked into a certain platform or theme. Just download your site files and deploy to whichever hosting provider you’d prefer.
 
-#### Ecommerce
+### Ecommerce
 
 The latest — and most hotly-anticipated — addition to the Webflow suite of tools, Ecommerce was released as public beta in late 2018.
 

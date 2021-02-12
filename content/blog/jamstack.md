@@ -1,6 +1,6 @@
 ---
 title: "What (the Hell) Is JAMstack?"
-date: 2020-12-16T09:46:56-08:00
+date: 2018-10-31T09:46:56-08:00
 draft: false
 summary: The "future of the internet" lies in blazing-fast static sites powered by client-side JavaScript, APIs, and Markup.
 tag: Development
@@ -50,7 +50,7 @@ By contrast, the JAMstack model operates much like a kitchen in which the tasks 
 
 Now that you hopefully understand a bit more about what JAMstack is and how it works, let’s delve a bit deeper into the benefits of this approach.
 
-#### Security
+### Security
 
 This is a big one. By design, JAMstack sites are incredibly secure.
 
@@ -64,7 +64,7 @@ Scary stuff.
 
 With no databases, PHP plug-ins, or dynamic software running on your web server, the potential for malicious code injections and other hacks is enormously reduced for static sites.
 
-#### Speed
+### Speed
 
 The advantages of static websites in terms of speed can be astronomical.
 
@@ -84,7 +84,7 @@ So what does this mean for you, exactly?
 
 Faster load times lead to reduced bounce rates, as visitors won’t be leaving your site due to slow loading times. This means more interactions, and ultimately, more conversions, as well.
 
-#### Search-Engine Optimization (SEO)
+### Search-Engine Optimization (SEO)
 
 Search engines favor fast-loading websites — that much has been true for several years now.
 
@@ -96,7 +96,7 @@ This means that search engines like Google determine SEO rankings (in part) by c
 
 The marked benefits of static sites built on the JAMstack framework in terms of page loading speed can also dramatically improve your SEO score relative to your competitors’ scores, especially taking into account the fact that most of them are probably still running traditional CMS.
 
-#### How to Get Started
+## How to Get Started
 
 Alright, so I’ve managed to convince you that JAMstack is the way to go. But where to begin? With hundreds of static site generators currently on the market, and with more added each day, which is the best to get started with?
 

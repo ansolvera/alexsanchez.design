@@ -1,6 +1,6 @@
 ---
 title: "How to (Really) Think Like a Designer"
-date: 2020-12-16T09:46:56-08:00
+date: 2019-07-24T09:46:56-08:00
 draft: false
 summary: The problem with so-called “Design Thinking,” and why linear, process-based creative frameworks like this so often miss the mark.
 tag: Design
