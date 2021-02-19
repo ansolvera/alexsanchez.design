@@ -1,13 +1,13 @@
 ---
 title: "Five Steps to a Rock-Solid Website Strategy"
-date: 2019-01-23T09:46:56-08:00
+date: 2021-02-19T09:46:56-08:00
 draft: false
 summary: It's never enough for a website to just look pretty––it should also have a clear strategy behind it.
 tag: Business
-image: /img/strategy.webp
+image: /img/strategy-hero.webp
 imageauthor: Austin Distel
 imageurl: https://unsplash.com/@austindistel
-slug: "pros-and-cons-of-squarespace"
+slug: "five-steps-to-a-rock-solid-website-strategy"
 ---
 
 I hate to break it to you.
