@@ -17,7 +17,7 @@
 <section id="list-section" class="pb-32">
     <div class="container">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-x-0 gap-y-20 md:gap-x-10">
-            {{ range .Pages.ByDate }}
+            {{ range .Pages.ByDate.Reverse }}
             <a href="{{ .Permalink }}" class="group flex flex-col justify-start items-stretch">
                 <img src="{{ .Params.image }}" alt="{{ .Params.alt }}" class="h-60 w-auto rounded-lg shadow-lg object-cover mb-5">
                 <div class="flex flex-col justify-start items-start">
